@@ -8,9 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class SpotifyService {
 
-    constructor(private http: HttpClient) {
-        console.log('Spotify service listo');
-    }
+    constructor(private http: HttpClient) { }
 
     getQuery(query: string) {
 
